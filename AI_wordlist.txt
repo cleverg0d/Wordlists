@@ -111,6 +111,10 @@ bot-config.json
 config.ai.json
 ai-config.json
 context.json
+INSTALLATION_SUMMARY.md
+CHATBOT_README.md
+CHATBOT_QUICKSTART.md
+AGENTS.md
 
 # Framework-specific
 SKILL.md
@@ -162,6 +166,8 @@ justfile
 # CI/CD & infrastructure
 .github/workflows/*.yml
 .gitlab-ci.yml
+.git
+.git/config
 .circleci/config.yml
 Jenkinsfile
 .travis.yml
@@ -172,6 +178,13 @@ terraform.tfstate
 ansible.cfg
 inventory.ini
 playbook.yml
+deploy
+deploy/redeploy_backend.sh
+frontend
+frontend/Dockerfile
+backend
+.emergent
+.emergent/emergent.yml
 
 # Dependency & build
 package.json
@@ -189,6 +202,14 @@ go.sum
 go.mod
 pom.xml
 build.gradle
+DEVELOPMENT.md
+README.md
+dockerfile
+datastore.db
+readme.md
+docs
+docs/development.md
+docs/architecture.md
 
 # Backup & temp
 *.sql
@@ -207,6 +228,14 @@ backup.zip
 .hidden-ai/
 .private/
 .dev/ai/
+.vscode
+.vscode/settings.json
+.vscode/extensions.json
+.gemini
+.gemini/settings.json
+.gemini/skills/SKILL.md
+.vuepress
+.vuepress/config.js
 tmp/ai/
 backup/ai/
 old/prompts/
